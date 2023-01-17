@@ -22,7 +22,7 @@ The learning goals of this project are:
 
 ## Software Development Assessment 
 - [ x ] Create a pip installable tool (only locally, do not submit to PyPI)
-	- [  ] Edit the `pyproject.toml` file to reflect author information
+	- [ x ] Edit the `pyproject.toml` file to reflect author information
 	- [  ] Update the dependencies to include those that you use in your code
 
 - [ ] Write a unit test (in the test.py file) for
