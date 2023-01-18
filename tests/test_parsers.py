@@ -22,7 +22,7 @@ def test_freebie_parser_2():
 
 
 def get_data_path(which):
-    data_dir = pathlib.Path.cwd().resolve().parent / "data"
+    data_dir = pathlib.Path.cwd().resolve().parent.parent / "data"
     if which == "fasta":
         return data_dir / "test.fa"
     else:
