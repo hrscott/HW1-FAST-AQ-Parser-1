@@ -1,3 +1,5 @@
+# Note that there is 1 intended fail unit test that has been included here
+
 # Project 1
 Building a FAST[AQ] Parser + Building a DNA -> RNA Transcriber
 
@@ -21,17 +23,17 @@ The learning goals of this project are:
 - [ x ] Write a Reverse Transcription Function (Write this code in the seq.py file). 
 
 ## Software Development Assessment 
-- [ x ] Create a pip installable tool (only locally, do not submit to PyPI)
-	- [ x ] Edit the `pyproject.toml` file to reflect author information
-	- [  ] Update the dependencies to include those that you use in your code
+- [x] Create a pip installable tool (only locally, do not submit to PyPI)
+	- [x] Edit the `pyproject.toml` file to reflect author information
+	- [x] Update the dependencies to include those that you use in your code
 
-- [ ] Write a unit test (in the test.py file) for
-	- [ ] Fasta Parser
-	- [ ] Fastq Parser
-	- [ ] Transcription
-	- [ ] Reverse Transcription
+- [x] Write a unit test (in the test.py file) for
+	- [x] Fasta Parser
+	- [x] Fastq Parser
+	- [x] Transcription
+	- [x] Reverse Transcription
 
-- [ ] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
+- [x] Automate Testing with a [Github Actions](https://docs.github.com/en/actions)
 
 	See blogposts below on helping set up github actions with pytest:
 	
