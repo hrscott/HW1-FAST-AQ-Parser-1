@@ -29,7 +29,7 @@ def get_data_path(which):
         return data_dir / "test.fq"
 
 def get_testcase_fasta(reference):
-    data_dir = pathlib.Path.cwd().resolve()
+    data_dir = pathlib.Path(__file__).resolve().parent / "data"
     if reference == "fasta":
         return data_dir / "missing_value.fa"
     else:
@@ -37,13 +37,13 @@ def get_testcase_fasta(reference):
 
 
 def open_fasta_reference():
-    f = pathlib.Path.cwd().resolve()/ "test.fa"
+    f = pathlib.Path(__file__).resolve().parent / "test.fa"
     with f.open() as f:
         seqs = list(map(lambda l: l.strip(), f.readlines()))
     return seqs 
 
 def open_fastq_reference():
-    f = pathlib.Path.cwd().resolve()/ "test.fq"
+    f = pathlib.Path(__file__).resolve().parent / "test.fq"
     with f.open() as f:
         seqs = list(map(lambda l: l.strip(), f.readlines()))
     return seqs 
